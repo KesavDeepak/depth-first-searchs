@@ -75,7 +75,7 @@ for i in range(e):
     u,v=map(str,input().split())
     graph[u].append(v)
     graph[v].append(u)
-#print(graph)
+
 start='A'
 visited=defaultdict(bool)
 path=[]
